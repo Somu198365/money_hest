@@ -1,0 +1,77 @@
+.header{
+    width: 100%;
+    font-size: 20px;
+    margin: 20px;
+    animation: colour-animation 3s infinite linear alternate;
+}
+@keyframes colour-animation {
+    0% {
+       background: #13cc0d;
+    }
+    50% {
+       background: #9611ca;
+    } 
+    100% {
+       background: #0b83e6
+    } 
+ }
+ @keyframes note-animation {
+    0% {
+       background: #07fd07;
+    }
+    50% {
+       background: #971476;
+    } 
+    100% {
+       background: #6200ff
+    } 
+ }
+ @keyframes nani-animation {
+    0% {
+       size: 10px;
+    }
+    50% {
+       size: 50px;
+    } 
+    100% {
+       size: 100px;
+    } 
+ }
+.note{
+    font-size: 15px;
+    animation: note-animation 3s infinite linear alternate;
+}
+body{
+    background-size: cover;
+}
+.disk_speed{
+    float: left;
+    margin: 30px;
+}
+img{
+width: 200px;
+height: 200px;
+}
+.disk_speed1{
+    float: right;
+    margin: 30px;
+}
+@keyframes color-animation {
+    0% {
+       background: #9dff00;
+    }
+    50% {
+       background: #b6a19a;
+    } 
+    100% {
+       background: #0cff04
+    } 
+ }
+
+.play{
+    animation: color-animation 1s infinite linear alternate;
+}
+canvas{
+   border: 3px solid white;
+   border-radius: 3px;
+}
